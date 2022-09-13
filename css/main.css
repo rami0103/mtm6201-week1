@@ -1,0 +1,71 @@
+body {
+    font-family: 'Merriweather', serif;
+    color: #04123E;
+    background-color: #EBCEBC;
+}
+
+.main-container {
+    width: 88%;
+    margin: 0 auto;
+    display: flex; 
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+
+.content {
+    width: 50%;
+    margin-top: 6rem;
+    padding: 2rem 4rem;
+}
+
+header {
+    padding-bottom: 1rem;
+}
+
+main dl dt {
+    font-weight: 900;
+    padding: 0.3rem;
+}
+
+main dl dd {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    
+    .container {
+        width: 100%;
+    }
+
+    img {
+        width: 100vw;
+    }
+
+    .content {
+        width: 90%;
+        margin: 1rem auto;
+        padding: 1rem 2rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    main dt, main dd {
+        font-size: 0.9rem;
+    }
+}
